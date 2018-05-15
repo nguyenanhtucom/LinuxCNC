@@ -5,7 +5,7 @@ Enter the Terminal window ans place the following code:
 $ git clone git://github.com/linuxcnc/linuxcnc.git linuxcnc-dev
 $ cd linuxcnc-dev
 
-#Resolving build dependencies
+# Resolving build dependencies
 $ cd debian 
 $ ./configure -a 
 $ cd .. 
@@ -50,7 +50,7 @@ After all those dependencies are installed, issue the command:
 $ dpkg-checkbuilddeps 
 
 
-#Building LinuxCNC
+# Building LinuxCNC
 Run these commands in the linuxcnc-dev
 $ cd src 
 $ ./autogen.sh 
@@ -67,14 +67,10 @@ $ make
 $ make install-menus 
 $ sudo make setuid 
 
-#Run Linuxcnc (run in place)
-
+# Run Linuxcnc (run in place)
 
 Now that LinuxCNC is compiled, its time to run it.
 
 $ . ../scripts/rip-environment 
 $ linuxcnc 
 And LinuxCNC should start, in this case we run a simulation configuration (axis_9axis).
-
-
-$ make
