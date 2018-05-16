@@ -115,14 +115,18 @@ $ cd ..
 $ sudo dpkg -i etherlabmaster*deb
 
 $ sudo cp ec-debianize/debian/tmp/etc/init.d/ethercat /etc/init.d
-Anpassung in /etc/init.d/ethercat von:
+
+Edit in /etc/init.d/ethercat:
 
 /etc/sysconfig/ethercat
-nach:
+
+etc:
 
 /etc/default/ethercat
+
 $ sudo update-rc.d ethercat defaults
-Anpassung eth0 und e1000e:
+
+Edit eth0 and e1000e:
 
 $ /sbin/ifconfig
 $ sudo vi /etc/default/ethercat
