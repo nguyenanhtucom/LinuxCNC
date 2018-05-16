@@ -129,9 +129,13 @@ $ sudo update-rc.d ethercat defaults
 Edit eth0 and e1000e:
 
 $ /sbin/ifconfig
+
 $ sudo vi /etc/default/ethercat
+
 MASTER0_DEVICE="eth0"
+
 DEVICE_MODULES="e1000e"
+
 Installation ntp:
 
 $ sudo apt-get -y install ntp
