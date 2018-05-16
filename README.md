@@ -159,3 +159,31 @@ $ ethercat slaves
 6  0:6  PREOP  +  EL7041-1000 1Ch. Stepper motor output stage (50V, 5A, standard)
 
 7  0:7  PREOP  +  EL2622 2K. Relais Ausgang, Schlie�er (230V AC / 30V DC)
+
+# LinuxCNC / EtherCAT HAL-Module
+
+Installation als Debian-Paket:
+
+$ git clone https://github.com/sittner/linuxcnc-ethercat
+
+$ cd linuxcnc-ethercat
+
+$ sudo apt -y install machinekit-dev
+
+$ dpkg-checkbuilddeps
+
+$ dpkg-buildpackage
+
+$ cd ..
+
+$ sudo dpkg -i linuxcnc-ethercat*deb
+
+alternative: manuelle Installation:
+
+$ sudo apt -y install machinekit-dev
+
+$ git clone https://github.com/sittner/linuxcnc-ethercat
+
+$ make -C linuxcnc-ethercat all
+
+$ sudo make -C linuxcnc-ethercat install
