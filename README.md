@@ -24,34 +24,7 @@ $ sudo apt-get install "name of the dependency"
 
 In this case, the dependencies names that have to be installed are:
 
-$ sudo apt-get install dvipng 
-
-dvipng 
-texlive-extra-utils 
-texlive-latex-recommended 
-texlive-fonts-recommended 
-imagemagick 
-texlive-lang-french 
-texlive-lang-german
-texlive-lang-spanish
-texlive-lang-polish
-tcl8.5-dev
-tk8.5-dev
-libxaw7-dev
-libncurses-dev
-libreadline-dev
-asciidoc
-source-highlight
-groff
-python-lxml
-libglu1-mesa-dev
-libgnomeprintui2.2-dev
-libboost-python-dev
-texlive-lang-cyrillic
-libmodbus-dev
-libusb-1.0-0-dev
-graphviz
-inkscape
+$ sudo apt-get install dvipng texlive-extra-utils texlive-latex-recommended texlive-fonts-recommended imagemagick texlive-lang-french  texlive-lang-german texlive-lang-spanish texlive-lang-polish tcl8.5-dev tk8.5-dev libxaw7-dev libncurses-dev libreadline-dev asciidoc source-highlight groff python-lxml libglu1-mesa-dev libgnomeprintui2.2-dev libboost-python-dev texlive-lang-cyrillic libmodbus-dev libusb-1.0-0-dev graphviz inkscape
 
 After all those dependencies are installed, issue the command:
 
