@@ -24,8 +24,7 @@ $ sudo apt-get install "name of the dependency"
 
 In this case, the dependencies names that have to be installed are:
 
-$ sudo apt-get install dvipng texlive-extra-utils texlive-latex-recommended texlive-fonts-recommended imagemagick texlive-lang-french  texlive-lang-german texlive-lang-spanish texlive-lang-polish tcl8.5-dev tk8.5-dev libxaw7-dev libncurses-dev libreadline-dev asciidoc source-highlight groff python-lxml libglu1-mesa-dev libboost-python-dev texlive-lang-cyrillic libmodbus-dev libusb-1.0-0-dev graphviz inkscape libreadline-gplv2-dev python-gtk2 tclx libtk-img bwidget intltool yapp gtk2.0 libgtk-3-dev python-tk
-
+$ sudo apt-get install libudev-dev libmodbus-dev libusb-1.0-0-dev libglib2.0-dev gtk2.0 yapps2 intltool tcl8.6-dev tk8.6-dev bwidget libtk-img tclx python-gtk2 libreadline-gplv2-dev python-tk libboost-all-dev freeglut3-dev libxmu-dev libxi-dev
 
 After all those dependencies are installed, issue the command:
 
