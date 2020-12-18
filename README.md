@@ -59,6 +59,8 @@ $ make install-menus
 
 $ sudo make setuid 
 
+ImportError: No module named yapp (sudo apt install python-yapps)
+
 # Run Linuxcnc (run in place)
 
 Now that LinuxCNC is compiled, its time to run it.
